@@ -15,7 +15,7 @@ Game_UPDATE = pygame.USEREVENT # userevent is a special event type that can be u
 pygame.time.set_timer(Game_UPDATE, 200)
 
 while True: #crate a loop which will ein the game
-    for event in pygame.event.get():
+    for event in pygame.event.get(): 
         if event.type == pygame.QUIT: #breakes the loop when quit
             pygame.quit()
             sys.exit()
